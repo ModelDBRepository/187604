@@ -11,6 +11,9 @@ This code creates a scalable network of cells and runs a simulation.
 It models the rat CA1 using several cell types and can include
 characteristics of an epileptic network (sprouting and cell death).
 
+UPDATES
+- 2022-04-01: sgate.mod: patch for compatibility with NEURON > 8.1. Technical fix, no expected changes.
+
 INSTRUCTIONS FOR RUNNING THE PROGRAM
 >SETUP:
 1. Ensure neuron is installed on the head node and has its directory added to PATH

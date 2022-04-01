@@ -74,7 +74,7 @@ PROCEDURE seed(x) {
 }
 
 VERBATIM
-double nrn_random_pick(void* r);
+double nrn_random_pick(void*);
 void* nrn_random_arg(int argpos);
 ENDVERBATIM
 
