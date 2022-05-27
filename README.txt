@@ -13,6 +13,7 @@ characteristics of an epileptic network (sprouting and cell death).
 
 UPDATES
 - 2022-04-01: sgate.mod: patch for compatibility with NEURON > 8.1. Technical fix, no expected changes.
+- 2022-05-23: Updated MOD files to contain valid C++ and be compatible with the upcoming versions 8.2 and 9.0 of NEURON.
 
 INSTRUCTIONS FOR RUNNING THE PROGRAM
 >SETUP:

@@ -82,9 +82,13 @@ NEURON {
 }
 
 VERBATIM
+#ifndef NRN_VERSION_GTEQ_8_2_0
+#include <stdint.h>
 extern double* vector_vec();
 extern int vector_capacity();
 extern void* vector_arg();
+extern uint32_t nrnRan4int(uint32_t* idx1, uint32_t idx2);
+#endif
 extern double get_x_pos(double gid, double gmin, double BinNumX, double BinNumYZ, double binSizeX);
 extern double get_y_pos(double gid, double gmin, double BinNumY, double BinNumZ, double binSizeY);
 extern double get_z_pos(double gid, double gmin, double BinNumZ, double binSizeZ, double ZHeight);
